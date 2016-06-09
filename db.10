@@ -1,0 +1,78 @@
+;
+; BIND reverse data file for app interface
+;
+$TTL    604800
+@       IN      SOA     name01.app.tsn. root (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+		IN	NS	name01.app.tsn.
+
+		
+; Server - Raum 000
+
+1.0.0		IN	PTR	name01.app.tsn.
+
+2.0.0		IN	PTR	name02.app.tsn.
+
+11.0.0		IN	PTR	smb01.app.tsn.
+12.0.0		IN	PTR	smb02.app.tsn.
+15.0.0		IN	PTR	smb05.app.tsn.
+
+21.0.0		IN	PTR	cups01.app.tsn.
+
+31.0.0		IN	PTR	fog01.app.tsn.
+
+;41.0.0		IN	PTR	laus01.app.tsn.
+41.0.0		IN	PTR	apca01.app.tsn.
+
+51.0.0		IN	PTR	vmware01.app.tsn.
+52.0.0		IN	PTR	vmcontrol01.app.tsn.
+
+201.0.0		IN	PTR	uniflow01.app.tsn.
+
+254.0.0		IN	PTR	nat01.app.tsn.
+
+
+; Printer all Rooms
+91.1.0		IN	PTR	r001pr01.app.tsn.
+91.2.0		IN	PTR	r002pr01.app.tsn.
+91.3.0		IN	PTR	r003pr01.app.tsn.
+91.4.0		IN	PTR	r004pr01.app.tsn.
+91.5.0		IN	PTR	r005pr01.app.tsn.
+91.7.0		IN	PTR	r007pr01.app.tsn.
+92.7.0		IN	PTR	r007pr02.app.tsn.
+91.8.0		IN	PTR	r008pr01.app.tsn.
+
+91.7.1		IN	PTR	r107pr01.app.tsn.
+93.7.1		IN	PTR	r107pr03.app.tsn.
+
+91.15.1		IN	PTR	r115pr01.app.tsn.
+92.15.1		IN	PTR	r115pr02.app.tsn.
+
+91.7.2		IN	PTR	r207pr01.app.tsn.
+91.14.3		IN	PTR	r314pr01.app.tsn.
+
+91.99.0		IN	PTR	r099pr01.app.tsn.
+92.99.0		IN	PTR	r099pr02.app.tsn.
+93.99.0		IN	PTR	r099pr03.app.tsn.
+
+; virtual Room for Canon UNIFLOW - Printer
+1.90.0		IN	PTR	rcanon01.app.tsn.
+2.90.0		IN	PTR	rcanon02.app.tsn.
+3.90.0		IN	PTR	rcanon03.app.tsn.
+
+
+; Supplierplan
+100.9.1		IN	PTR	suppl.app.tsn.
+
+
+; WLANS
+254.7.1		IN	PTR	r107wl01.app.tsn.
+254.13.1	IN	PTR	r113wl01.app.tsn.
+254.15.1	IN	PTR	r115wl01.app.tsn.
+
+

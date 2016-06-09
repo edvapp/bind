@@ -1,0 +1,104 @@
+;
+; BIND data file for domain app
+;
+$TTL    604800
+@   IN 		SOA   	name01  	root  (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+		IN	NS        name01
+
+
+_vlmcs._TCP	IN	SRV 0 0 1688 kmsu.lsr-t.gv.at.
+
+
+; Server - Raum 000
+
+name01		IN	A	10.0.0.1
+dhcp01		IN	CNAME	name01
+
+laus01		IN	CNAME	name01
+;apca01		IN	CNAME	name01
+tftp01		IN	CNAME	name01
+
+name02		IN	A	10.0.0.2
+
+smb01		IN	A	10.0.0.11
+smb02		IN	A	10.0.0.12
+smb03		IN	CNAME	smb01
+smb04		IN	CNAME	smb01
+smb05		IN	A	10.0.0.15
+
+nfs01		IN	CNAME	smb01
+nfs02		IN	CNAME	smb02
+nfs03		IN	CNAME	smb01
+nfs04		IN	CNAME	smb01
+nfs05		IN	CNAME	smb05
+
+ldap01		IN	CNAME	smb01
+
+cups01		IN	A	10.0.0.21
+
+fog01		IN	A	10.0.0.31
+
+;laus01		IN	A	10.0.0.41
+apca01		IN	A	10.0.0.41
+;apca01		IN	CNAME	laus01
+;tftp01		IN	CNAME	laus01
+
+vmware01	IN	A	10.0.0.51
+vmcontrol01	IN	A	10.0.0.52
+
+uniflow01	IN	A	10.0.0.201
+
+
+nat01		IN	A	10.0.0.254
+ntp01		IN	CNAME	nat01
+
+; Supplierplan
+suppl		IN	A	10.1.9.100
+
+
+; Printer all Rooms
+r001pr01	IN	A	10.0.1.91
+r002pr01	IN	A	10.0.2.91
+r003pr01	IN	A	10.0.3.91
+r004pr01	IN	A	10.0.4.91
+r005pr01	IN	A	10.0.5.91
+r007pr01	IN	A	10.0.7.91
+r007pr02	IN	A	10.0.7.92
+r008pr01	IN	A	10.0.8.91
+
+r107pr01	IN	A	10.1.7.91
+r107pr03	IN	A	10.1.7.93
+
+r115pr01	IN	A	10.1.15.91
+r115pr02	IN	A	10.1.15.92
+
+r207pr01	IN	A	10.2.7.91
+r314pr01	IN	A	10.3.14.91
+
+r099pr01	IN	A	10.0.99.91
+r099pr02	IN	A	10.0.99.92
+r099pr03	IN	A	10.0.99.93
+
+; virtual Room for Canon UNIFLOW - Printer
+rcanon01	IN	A	10.0.90.1
+rcanon02	IN	A	10.0.90.2
+rcanon03	IN	A	10.0.90.3
+
+
+; WLANS
+r107wl01	IN	A	10.1.7.254
+r113wl01	IN	A	10.1.13.254
+r115wl01	IN	A	10.1.15.254
+
+
+
+
+
+
+
