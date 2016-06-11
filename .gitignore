@@ -7,11 +7,6 @@ db.255
 db.empty
 db.local
 db.root
-named.conf
-named.conf.default-zones
-named.conf.local
-named.conf.local.original
-named.conf.options
-named.conf.options.original
+named.*
 rndc.key
 zones.rfc1918
