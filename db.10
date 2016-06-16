@@ -11,12 +11,18 @@ $TTL    604800
 ;
 		IN	NS	name01.app.tsn.
 
-		
 ; Server - Raum 000
 
 1.0.0		IN	PTR	name01.app.tsn.
-
 2.0.0		IN	PTR	name02.app.tsn.
+
+4.0.0		IN	PTR	dhcp02.app.tsn.
+
+6.0.0		IN	PTR	tftp02.app.tsn.
+
+8.0.0		IN	PTR	laus02.app.tsn.
+
+10.0.0		IN	PTR	ldap02.app.tsn.
 
 11.0.0		IN	PTR	smb01.app.tsn.
 12.0.0		IN	PTR	smb02.app.tsn.
@@ -26,7 +32,6 @@ $TTL    604800
 
 31.0.0		IN	PTR	fog01.app.tsn.
 
-;41.0.0		IN	PTR	laus01.app.tsn.
 41.0.0		IN	PTR	apca01.app.tsn.
 
 51.0.0		IN	PTR	vmware01.app.tsn.
