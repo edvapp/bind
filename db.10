@@ -22,6 +22,7 @@ $TTL    604800
 
 8.0.0		IN	PTR	laus02.app.tsn.
 
+9.0.0		IN	PTR	ldap01.app.tsn.
 10.0.0		IN	PTR	ldap02.app.tsn.
 
 11.0.0		IN	PTR	smb01.app.tsn.
