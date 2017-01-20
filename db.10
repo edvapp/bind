@@ -38,6 +38,12 @@ $TTL    604800
 51.0.0		IN	PTR	vmware01.app.tsn.
 52.0.0		IN	PTR	vmcontrol01.app.tsn.
 
+61.0.0		IN	PTR	ldx01.app.tsn.
+62.0.0		IN	PTR	ldx02.app.tsn.
+63.0.0		IN	PTR	ldx03.app.tsn.
+64.0.0		IN	PTR	ldx04.app.tsn.
+65.0.0		IN	PTR	ldx05.app.tsn.
+
 201.0.0		IN	PTR	uniflow01.app.tsn.
 
 254.0.0		IN	PTR	nat01.app.tsn.

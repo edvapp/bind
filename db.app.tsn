@@ -48,6 +48,12 @@ apca01		IN	A	10.0.0.41
 vmware01	IN	A	10.0.0.51
 vmcontrol01	IN	A	10.0.0.52
 
+ldx01		IN	A	10.0.0.61
+ldx02		IN	A	10.0.0.62
+ldx03		IN	A	10.0.0.63
+ldx04		IN	A	10.0.0.64
+ldx05		IN	A	10.0.0.65
+
 uniflow01	IN	A	10.0.0.201
 
 
