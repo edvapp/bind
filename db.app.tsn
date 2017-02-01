@@ -19,7 +19,7 @@ name01		IN	A	10.0.0.1
 name02		IN	A	10.0.0.2
 dhcp01		IN	CNAME	name01
 dhcp02		IN	A	10.0.0.4
-tftp01		IN	CNAME	name01
+tftp01		IN	A	10.0.0.5
 tftp02		IN	A	10.0.0.6
 laus01		IN	CNAME	name01
 laus02		IN	A	10.0.0.8
