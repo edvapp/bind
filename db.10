@@ -47,6 +47,8 @@ $TTL    604800
 
 201.0.0		IN	PTR	uniflow01.app.tsn.
 
+220.0.0		IN	PTR	wlanctl01.app.tsn.
+
 254.0.0		IN	PTR	nat01.app.tsn.
 
 
