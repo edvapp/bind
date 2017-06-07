@@ -81,13 +81,17 @@ $TTL    604800
 3.90.0		IN	PTR	rcanon03.app.tsn.
 
 
-; Supplierplan
-100.9.1		IN	PTR	suppl.app.tsn.
-
-
 ; WLANS
 254.7.1		IN	PTR	r107wl01.app.tsn.
 254.13.1	IN	PTR	r113wl01.app.tsn.
 254.15.1	IN	PTR	r115wl01.app.tsn.
+
+
+; Raspberry PIs for Timetable
+; Raspi Aula
+1.9.1		IN	PTR	stupla01.app.tsn.
+; Raspi GfB
+1.12.1		IN	PTR	stupla02.app.tsn.
+
 
 

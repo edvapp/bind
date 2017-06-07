@@ -61,9 +61,6 @@ wlanctl01	IN	A	10.0.0.220
 nat01		IN	A	10.0.0.254
 ntp01		IN	CNAME	nat01
 
-; Supplierplan
-suppl		IN	A	10.1.9.100
-
 
 ; Printer all Rooms
 r001pr01	IN	A	10.0.1.91
@@ -99,6 +96,12 @@ r107wl01	IN	A	10.1.7.254
 r113wl01	IN	A	10.1.13.254
 r115wl01	IN	A	10.1.15.254
 
+
+; Raspberry PIs for Timetable
+; Raspi Aula
+stupla01	IN 	A	10.1.9.1
+; Raspi GfB
+stupla02	IN	A	10.1.12.1
 
 
 
