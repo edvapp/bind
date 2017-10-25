@@ -54,6 +54,12 @@ lxd03		IN	A	10.0.0.63
 lxd04		IN	A	10.0.0.64
 lxd05		IN	A	10.0.0.65
 
+pve01		IN	A	10.0.0.71
+pve02		IN	A	10.0.0.72
+pve03		IN	A	10.0.0.73
+pve04		IN	A	10.0.0.74
+pve05		IN	A	10.0.0.75
+
 uniflow01	IN	A	10.0.0.201
 
 wlanctl01	IN	A	10.0.0.220

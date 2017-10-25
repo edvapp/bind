@@ -45,6 +45,12 @@ $TTL    604800
 64.0.0		IN	PTR	lxd04.app.tsn.
 65.0.0		IN	PTR	lxd05.app.tsn.
 
+71.0.0		IN	PTR	pve01.app.tsn.
+72.0.0		IN	PTR	pve02.app.tsn.
+73.0.0		IN	PTR	pve03.app.tsn.
+74.0.0		IN	PTR	pve04.app.tsn.
+75.0.0		IN	PTR	pve05.app.tsn.
+
 201.0.0		IN	PTR	uniflow01.app.tsn.
 
 220.0.0		IN	PTR	wlanctl01.app.tsn.
