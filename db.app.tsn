@@ -17,11 +17,11 @@ _vlmcs._TCP	IN	SRV 0 0 1688 kmsu.lsr-t.gv.at.
 
 name01		IN	A	10.0.0.1
 name02		IN	A	10.0.0.2
-dhcp01		IN	CNAME	name01
+dhcp01		IN	A	10.0.0.3
 dhcp02		IN	A	10.0.0.4
 tftp01		IN	A	10.0.0.5
 tftp02		IN	A	10.0.0.6
-laus01		IN	CNAME	name01
+laus01		IN	A	10.0.0.7
 laus02		IN	A	10.0.0.8
 ldap01		IN	A	10.0.0.9
 ldap02		IN	A	10.0.0.10
@@ -37,6 +37,7 @@ nfs02		IN	CNAME	smb02
 nfs03		IN	CNAME	smb01
 nfs04		IN	CNAME	smb01
 nfs05		IN	CNAME	smb05
+nfs09		IN	A	10.0.0.19
 
 cups01		IN	A	10.0.0.21
 cups02		IN	A	10.0.0.22
