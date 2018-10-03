@@ -30,8 +30,6 @@ $TTL    604800
 
 19.0.0		IN	PTR	nfs09.app.tsn.
 
-21.0.0		IN	PTR	cups01.app.tsn.
-
 31.0.0		IN	PTR	fog01.app.tsn.
 
 41.0.0		IN	PTR	apca01.app.tsn.
@@ -50,6 +48,8 @@ $TTL    604800
 73.0.0		IN	PTR	pve03.app.tsn.
 74.0.0		IN	PTR	pve04.app.tsn.
 75.0.0		IN	PTR	pve05.app.tsn.
+
+180.0.0		IN	PTR	cups01.app.tsn.
 
 201.0.0		IN	PTR	uniflow01.app.tsn.
 
