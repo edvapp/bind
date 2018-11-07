@@ -29,13 +29,13 @@ ldap02		IN	A	10.0.0.10
 smb01		IN	A	10.0.0.11
 smb02		IN	A	10.0.0.12
 smb03		IN	CNAME	smb01
-smb04		IN	CNAME	smb01
+smb04		IN	CNAME	nfs04
 smb05		IN	A	10.0.0.15
 
 nfs01		IN	CNAME	smb01
 nfs02		IN	CNAME	smb02
 nfs03		IN	CNAME	smb01
-nfs04		IN	CNAME	smb01
+nfs04		IN	A	10.0.0.14
 nfs05		IN	CNAME	smb05
 nfs09		IN	A	10.0.0.19
 
