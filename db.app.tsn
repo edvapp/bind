@@ -26,18 +26,17 @@ laus02		IN	A	10.0.0.8
 ldap01		IN	A	10.0.0.9
 ldap02		IN	A	10.0.0.10
 
-smb01		IN	A	10.0.0.11
-smb02		IN	A	10.0.0.12
-smb03		IN	CNAME	smb01
-smb04		IN	CNAME	nfs04
-smb05		IN	A	10.0.0.15
+nfs01		IN	CNAME	smb01		; teachers, pupils
+nfs02		IN	A	10.0.0.12	; lehrmaterial
+nfs03		IN	A	10.0.0.13	; schueler
+nfs04		IN	A	10.0.0.14	; optProgs
 
-nfs01		IN	CNAME	smb01
-nfs02		IN	CNAME	smb02
-nfs03		IN	CNAME	smb01
-nfs04		IN	A	10.0.0.14
-nfs05		IN	CNAME	smb05
 nfs09		IN	A	10.0.0.19
+
+smb01		IN	A	10.0.0.11
+smb02		IN	CNAME	nfs02
+smb03		IN	CNAME	nfs03
+smb04		IN	CNAME	nfs04
 
 fog01		IN	A	10.0.0.31
 

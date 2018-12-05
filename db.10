@@ -25,9 +25,9 @@ $TTL    604800
 10.0.0		IN	PTR	ldap02.app.tsn.
 
 11.0.0		IN	PTR	smb01.app.tsn.
-12.0.0		IN	PTR	smb02.app.tsn.
+12.0.0		IN	PTR	nfs02.app.tsn.
+13.0.0		IN	PTR	nfs03.app.tsn.
 14.0.0		IN	PTR	nfs04.app.tsn.
-15.0.0		IN	PTR	smb05.app.tsn.
 
 19.0.0		IN	PTR	nfs09.app.tsn.
 
