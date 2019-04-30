@@ -11,7 +11,8 @@ $TTL    604800
 ;
 		IN	NS        name01
 
-_vlmcs._TCP	IN	SRV 0 0 1688 kmsu.lsr-t.gv.at.
+;_vlmcs._TCP	IN	SRV 0 0 1688 kmsu.lsr-t.gv.at.
+_vlmcs._TCP	IN	SRV 0 0 1688 kms.bildung-tirol.gv.at.
 
 ; Server - Raum 000
 
