@@ -31,6 +31,8 @@ nfs01		IN	CNAME	smb01		; teachers, pupils
 nfs02		IN	A	10.0.0.12	; lehrmaterial
 nfs03		IN	A	10.0.0.13	; schueler
 nfs04		IN	A	10.0.0.14	; optProgs
+lehrmaterial	IN	CNAME	nfs02
+schueler	IN	CNAME	nfs03
 
 nfs09		IN	A	10.0.0.19
 
