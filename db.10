@@ -50,13 +50,13 @@ $TTL    604800
 74.0.0		IN	PTR	pve04.app.tsn.
 75.0.0		IN	PTR	pve05.app.tsn.
 
-180.0.0		IN	PTR	cups01.app.tsn.
+180.0.0	IN	PTR	cups01.app.tsn.
 
-201.0.0		IN	PTR	uniflow01.app.tsn.
+201.0.0	IN	PTR	uniflow01.app.tsn.
 
-220.0.0		IN	PTR	wlanctl01.app.tsn.
+220.0.0	IN	PTR	wlanctl01.app.tsn.
 
-254.0.0		IN	PTR	nat01.app.tsn.
+254.0.0	IN	PTR	nat01.app.tsn.
 
 
 ; Printer all Rooms
@@ -72,17 +72,18 @@ $TTL    604800
 91.7.1		IN	PTR	r107pr01.app.tsn.
 93.7.1		IN	PTR	r107pr03.app.tsn.
 
-91.15.1		IN	PTR	r115pr01.app.tsn.
-92.15.1		IN	PTR	r115pr02.app.tsn.
+91.15.1	IN	PTR	r115pr01.app.tsn.
+92.15.1	IN	PTR	r115pr02.app.tsn.
 
 91.7.2		IN	PTR	r207pr01.app.tsn.
-91.16.2		IN	PTR	r216pr01.app.tsn.
+91.16.2	IN	PTR	r216pr01.app.tsn.
 
-91.14.3		IN	PTR	r314pr01.app.tsn.
+91.7.3		IN	PTR	r307pr01.app.tsn.
+91.14.3	IN	PTR	r314pr01.app.tsn.
 
-91.99.0		IN	PTR	r099pr01.app.tsn.
-92.99.0		IN	PTR	r099pr02.app.tsn.
-93.99.0		IN	PTR	r099pr03.app.tsn.
+91.99.0	IN	PTR	r099pr01.app.tsn.
+92.99.0	IN	PTR	r099pr02.app.tsn.
+93.99.0	IN	PTR	r099pr03.app.tsn.
 
 ; virtual Room for Canon UNIFLOW - Printer
 1.90.0		IN	PTR	rcanon01.app.tsn.
@@ -91,7 +92,7 @@ $TTL    604800
 
 
 ; WLANS
-254.7.1		IN	PTR	r107wl01.app.tsn.
+254.7.1	IN	PTR	r107wl01.app.tsn.
 254.13.1	IN	PTR	r113wl01.app.tsn.
 254.15.1	IN	PTR	r115wl01.app.tsn.
 
