@@ -13,6 +13,8 @@ $TTL    604800
 
 ; Server - Raum 000
 
+; Basic Infrastructure Services
+; Range: 001 - 010
 1.0.0		IN	PTR	name01.app.tsn.
 2.0.0		IN	PTR	name02.app.tsn.
 3.0.0		IN	PTR	dhcp01.app.tsn.
@@ -24,38 +26,53 @@ $TTL    604800
 9.0.0		IN	PTR	ldap01.app.tsn.
 10.0.0		IN	PTR	ldap02.app.tsn.
 
+
+; File Service Services
+; Range: 011 - 020
 11.0.0		IN	PTR	smb01.app.tsn.
 12.0.0		IN	PTR	nfs02.app.tsn.
 13.0.0		IN	PTR	nfs03.app.tsn.
 14.0.0		IN	PTR	nfs04.app.tsn.
 
-19.0.0		IN	PTR	nfs09.app.tsn.
 
-31.0.0		IN	PTR	fog01.app.tsn.
+; Directory Services
+; Range: 021 - 030
 
+
+; Baustelle gehört eigentlich in 001 - 010
 41.0.0		IN	PTR	apca01.app.tsn.
 
-51.0.0		IN	PTR	vmware01.app.tsn.
-52.0.0		IN	PTR	vmcontrol01.app.tsn.
 
-61.0.0		IN	PTR	lxd01.app.tsn.
-62.0.0		IN	PTR	lxd02.app.tsn.
-63.0.0		IN	PTR	lxd03.app.tsn.
-64.0.0		IN	PTR	lxd04.app.tsn.
-65.0.0		IN	PTR	lxd05.app.tsn.
-
+; Virtualisation Server
+; Range: 071 - 080
 71.0.0		IN	PTR	pve01.app.tsn.
 72.0.0		IN	PTR	pve02.app.tsn.
 73.0.0		IN	PTR	pve03.app.tsn.
 74.0.0		IN	PTR	pve04.app.tsn.
 75.0.0		IN	PTR	pve05.app.tsn.
+80.0.0		IN	PTR	lxd01.app.tsn.
 
+
+; Clone Server
+; Range: 091 - 100
+91.0.0	IN	PTR	fog01.app.tsn.
+92.0.0	IN	PTR	fog02.app.tsn.
+
+
+; Various Services
+; Range: 171 - 240
 180.0.0	IN	PTR	cups01.app.tsn.
 
 201.0.0	IN	PTR	uniflow01.app.tsn.
 
+; virtual WLAN - Controller on ldx01
 220.0.0	IN	PTR	wlanctl01.app.tsn.
 
+; Gateways
+; 250 - 254
+; Gateway to 83.175.116.5 (IKB)
+253.0.0	IN	PTR	nat02.app.tsn.
+; Gateway to 83.175.116.4 (IKB)
 254.0.0	IN	PTR	nat01.app.tsn.
 
 

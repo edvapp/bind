@@ -64,6 +64,12 @@ pve04		IN	A	10.0.0.74
 pve05		IN	A	10.0.0.75
 lxd01		IN	A	10.0.0.80
 
+
+; Clone Server
+; Range: 091 - 100
+fog01		IN	A	10.0.0.91
+fog02		IN	A	10.0.0.92
+
 ; Various Services
 ; Range: 171 - 240
 cups01		IN	A	10.0.0.180
