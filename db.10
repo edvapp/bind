@@ -50,6 +50,7 @@ $TTL    604800
 73.0.0		IN	PTR	pve03.app.tsn.
 74.0.0		IN	PTR	pve04.app.tsn.
 75.0.0		IN	PTR	pve05.app.tsn.
+76.0.0		IN	PTR	pve06.app.tsn.
 80.0.0		IN	PTR	lxd01.app.tsn.
 
 

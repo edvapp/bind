@@ -54,6 +54,13 @@ smb04		IN	CNAME	nfs04
 ; Baustelle gehört eigentlich in 001 - 010
 apca01		IN	A	10.0.0.41
 
+; IMM management interaces for PVE
+imm_pve01	IN 	A	10.0.0.61
+imm_pve02	IN 	A	10.0.0.62
+imm_pve03	IN 	A	10.0.0.63
+imm_pve04	IN 	A	10.0.0.64
+imm_pve05	IN 	A	10.0.0.65
+imm_pve06	IN 	A	10.0.0.66
 
 ; Virtualisation Server
 ; Range: 071 - 080
@@ -62,6 +69,7 @@ pve02		IN	A	10.0.0.72
 pve03		IN	A	10.0.0.73
 pve04		IN	A	10.0.0.74
 pve05		IN	A	10.0.0.75
+pve06		IN	A	10.0.0.76
 lxd01		IN	A	10.0.0.80
 
 
@@ -72,6 +80,10 @@ fog02		IN	A	10.0.0.92
 
 ; Various Services
 ; Range: 171 - 240
+bbb01		IN	A	10.0.0.171
+esx01		IN	A	10.0.0.172
+immesx		IN	A	10.0.0.173
+
 cups01		IN	A	10.0.0.180
 
 uniflow01	IN	A	10.0.0.201
