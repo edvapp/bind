@@ -37,6 +37,9 @@ $TTL    604800
 
 ; Directory Services
 ; Range: 021 - 030
+21.0.0         IN      PTR     ad01.app.tsn.
+22.0.0         IN      PTR     ad02.app.tsn.
+23.0.0         IN      PTR     ad03.app.tsn.
 
 
 ; Baustelle gehört eigentlich in 001 - 010
@@ -56,8 +59,8 @@ $TTL    604800
 
 ; Clone Server
 ; Range: 091 - 100
-91.0.0	IN	PTR	fog01.app.tsn.
-92.0.0	IN	PTR	fog02.app.tsn.
+91.0.0	        IN	PTR	fog01.app.tsn.
+92.0.0	        IN	PTR	fog02.app.tsn.
 
 
 ; Various Services

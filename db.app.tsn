@@ -49,6 +49,9 @@ smb04		IN	CNAME	nfs04
 
 ; Directory Services
 ; Range: 021 - 030
+ad01           IN      A       10.0.0.21      ; Activ Directory #1
+ad02           IN      A       10.0.0.22      ; Activ Directory #2
+ad03           IN      A       10.0.0.23      ; Activ Directory #2
 
 
 ; Baustelle gehört eigentlich in 001 - 010
